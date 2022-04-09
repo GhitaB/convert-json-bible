@@ -1,2 +1,2 @@
 $ virtualenv .
-
+$ ./bin/python3 script.py
