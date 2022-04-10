@@ -127,5 +127,5 @@ for book in old_bible:
     merged_bible[book_index - 1]['chapters'] = chapters_list
     book_index += 1
 
-with open('ro-bible-new-merged.json', 'w') as f:
+with open('ro-bible-new-merged.json', 'w', encoding='utf-8') as f:
     json.dump(merged_bible, f)
